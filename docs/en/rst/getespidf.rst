@@ -5,13 +5,13 @@ Set up Development Environment
 Set up ESP-IDF Environment 
 ---------------------------------
 
-Please refer to `ESP-IDF Programming Guide <https://docs.espressif.com/projects/esp-idf/en/release-v5.0/esp32s2/get-started/index.html>`__\  and set up ESP-IDF environmnet step by step.
+Please refer to `ESP-IDF Programming Guide <https://docs.espressif.com/projects/esp-idf/en/release-v5.0/esp32s2/get-started/index.html>`__\  and set up ESP-IDF environment step by step.
 
 .. note::
 
 -  ESP-IDF branch ``release/v5.0`` is suggested.
 -  Please follow and complete all setup steps.
--  Build a example of ESP-IDF to make sure the setup is successful.
+-  Build an example of ESP-IDF to make sure the setup is successful.
 
 
 Get Project Source Code 
@@ -26,7 +26,7 @@ Get Project Source Code
 **The project software mainly consists of a flight control kernel, hardware drivers, and dependency libraries:**
 
 -  The flight control kernel is from Crazyflie, mainly including hardware abstraction layer and flight control program.
--  Hardware drivers are structured in files according to hardware interfaces, including I2C devcies and SPI devices.
+-  Hardware drivers are structured in files according to hardware interfaces, including I2C devices and SPI devices.
 -  Dependency libraries include the default components provided by ESP-IDF, as well as DSP from third parties.
 
 **The code file structure is as follows:**
@@ -49,7 +49,7 @@ Get Project Source Code
    │   │       ├── hal                         | hardware abstraction code
    │   │       └── modules             |  flight control code 
    │   ├── drivers                            | hardware driver directory
-   │   │   ├── deck                         | hardware extention interface driver
+   │   │   ├── deck                         | hardware extension interface driver
    │   │   ├── general                    | general device directory
    │   │   │   ├── adc                     | ADC driver for voltage monitoring
    │   │   │   ├── buzzer              | buzzer driver for status feedback
