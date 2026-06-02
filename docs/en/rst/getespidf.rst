@@ -2,7 +2,7 @@ Set up Development Environment
 ================================
 :link_to_translation:`zh_CN:[中文]`
 
-Set up ESP-IDF Environment 
+Set up ESP-IDF Environment
 ---------------------------------
 
 Please refer to `ESP-IDF Programming Guide <https://docs.espressif.com/projects/esp-idf/en/release-v5.0/esp32s2/get-started/index.html>`__\  and set up ESP-IDF environment step by step.
@@ -11,10 +11,10 @@ Please refer to `ESP-IDF Programming Guide <https://docs.espressif.com/projects/
 
 -  ESP-IDF branch ``release/v5.0`` is suggested.
 -  Please follow and complete all setup steps.
--  Build teh example of ESP-IDF to make sure the setup is successful.
+-  Build an example of ESP-IDF to make sure the setup is successful.
 
 
-Get Project Source Code 
+Get Project Source Code
 ---------------------------------------------------
 
 **Beta code, currently in the GitHub repository, is available by using git:**
@@ -47,7 +47,7 @@ Get Project Source Code
    │   ├── core                                 | system kernel directory
    │   │   └── crazyflie                  | Crazyflie kernel
    │   │       ├── hal                         | hardware abstraction code
-   │   │       └── modules             |  flight control code 
+   │   │       └── modules             |  flight control code
    │   ├── drivers                            | hardware driver directory
    │   │   ├── deck                         | hardware extension interface driver
    │   │   ├── general                    | general device directory
@@ -76,7 +76,7 @@ Get Project Source Code
    ├── README.md                        | project description
    └── sdkconfig.defaults            | default parameter
 
-**For more information, please refer to**: `espdrone_file_structure <./_static/espdrone_file_structure.pdf>`__. 
+**For more information, please refer to**: `espdrone_file_structure <./_static/espdrone_file_structure.pdf>`__.
 
 Source Code Style
 --------------------
@@ -102,7 +102,7 @@ The first member in an enumeration defaults to 0, so the member SensorImplementa
 
 .. code:: text
 
-   typedef enum {  
+   typedef enum {
      #ifdef SENSOR_INCLUDED_BMI088_BMP388
      SensorImplementation_bmi088_bmp388,
      #endif
