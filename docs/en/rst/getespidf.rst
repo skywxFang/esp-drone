@@ -11,7 +11,7 @@ Please refer to `ESP-IDF Programming Guide <https://docs.espressif.com/projects/
 
 -  ESP-IDF branch ``release/v5.0`` is suggested.
 -  Please follow and complete all setup steps.
--  Build an example of ESP-IDF to make sure the setup is successful.
+-  Build teh example of ESP-IDF to make sure the setup is successful.
 
 
 Get Project Source Code 
